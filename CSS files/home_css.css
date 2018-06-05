@@ -1,0 +1,181 @@
+@charset "charset";
+body{
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	color: white;
+	font-size: 15px;
+	width: 1920px;
+	height: 1080px;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #242b2e;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: right;
+    box-shadow: 0 0 80px 0 rgb(0, 0, 0);
+    z-index: 1;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #29b4b2;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.header{
+	width: 300px;
+	height: 124px;
+	padding: 12px 0;
+	background-color: #ffffff;
+}
+
+.header h1{
+	font-size: 50px;
+	text-align: center;
+	color: #364048;
+	font-weight: normal;
+}
+
+.w{
+	background: linear-gradient(#333b3f, #2e363a); 
+}
+
+.a{
+	background: linear-gradient(#333b3f, #2e363a);  
+}
+
+.b{
+	background: linear-gradient(#333b3f, #2e363a);  
+}
+
+.s{
+	background: linear-gradient(#333b3f, #2e363a);  
+}
+
+.c{
+	background: linear-gradient(#333b3f, #2f363a); 
+}
+
+.img1{
+	padding: 16px;
+}
+
+.footer{
+	font-size: 10px;
+	color: grey;
+	padding: 16px;
+}
+
+.img2{
+	width: 405px;
+	height: 311px;
+	float: left;
+	background-color: #d7d7d7;
+	position: relative;
+}
+
+.img3{
+	width: 405px;
+	height: 311px;
+	float: left;
+	background-color: #acacac;
+	position: relative;
+}
+
+.img4{
+	width: 405px;
+	height: 311px;
+	float: left;
+	background-color: #2cb8b6;
+}
+
+.t1{
+	margin: 0;
+	color: #aaaaaa;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+
+.t2{
+	margin: 0;
+	color: #888888;
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+
+.t3{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: normal;
+	padding-top: 20px;
+}
+
+.t4{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+hr{
+	width: 150px;
+	background-color: white;
+}
+
+.img5{
+	text-align: center;
+}
+
+.info{
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.contact{
+	background-color: rgb(55,55,55);
+	width: 312px;
+	height: 132px;
+	position: fixed;
+	top: 90px;
+	right: 0;
+	z-index: 1;
+	padding: 25px;
+}
+
+.contact a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+}
